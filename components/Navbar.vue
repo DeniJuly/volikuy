@@ -3,11 +3,11 @@
       <div class="container justify-content-center">
         <div class="col-10 col-lg-8 col-md-8 d-flex container-item">
           <nuxt-link to="/" class="item d-flex align-items-center justify-content-center p-1" :class="{active: page == 'index'}">
-            <img src="/icons/home.svg" alt="home">
+            <img src="/icon/home.svg" alt="home">
             <p class="m-0 ml-1">Home</p>
           </nuxt-link>
           <nuxt-link to="/user" class="item d-flex align-items-center justify-content-center p-1" :class="{active: page == 'user'}">
-            <img src="/icons/user.svg" alt="home">
+            <img src="/icon/user.svg" alt="home">
             <p class="m-0 ml-1">User</p>
           </nuxt-link>
         </div>

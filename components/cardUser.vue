@@ -25,7 +25,7 @@
         </b-card-body>
         <b-card-footer class="card-footer text-center">
             <b-button block v-b-toggle="`detail-${data.id}`">
-            <img src="/icons/arrow-down.svg" alt="arrow down">
+            <img src="/icon/arrow-down.svg" alt="arrow down">
             </b-button>
         </b-card-footer>
         </b-card>

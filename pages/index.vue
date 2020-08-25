@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-12 col-lg-10 col-md-10 header mt-4 d-flex align-items-center">
-            <img src="/icons/volleyball.svg" alt="volleyball">
+            <img src="/icon/volleyball.svg" alt="volleyball">
             <div class="countdown">
               <h5 class="m-0 mb-1 pm">{{ 31 - sekarang.substr(sekarang.length - 2) }} Hari</h5>
               <p class="m-0">menuju tanggal 31 Agustus 2020</p>

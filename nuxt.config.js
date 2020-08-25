@@ -1,5 +1,9 @@
 
 export default {
+  server: {
+    host: '192.168.43.92',
+    port: '8000'
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -53,13 +57,15 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
-  axios: {},
+  axios: {
+    baseURL: 'https://apivolikuy.iamdeni.com/'
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
